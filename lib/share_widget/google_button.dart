@@ -15,9 +15,9 @@ class GoogleButton extends StatelessWidget {
       child: Row(
         children: [
           Image(
-            image: AssetImage("${imageUrl}"),
-            width: 24.0,
-            height: 24.0,
+            image: NetworkImage("${imageUrl}"),
+            width: 30.0,
+            height: 30.0,
           ),
           Container(margin: EdgeInsets.only(left: 10.0), child: Text(text)),
         ],

@@ -1,6 +1,7 @@
 import 'package:customize_button/share_widget/bottom_navigation_custom.dart';
 import 'package:customize_button/share_widget/custom_button.dart';
 import 'package:customize_button/share_widget/custom_button_loading.dart';
+import 'package:customize_button/share_widget/google_button.dart';
 import 'package:customize_button/share_widget/rounded_button.dart';
 import 'package:customize_button/share_widget/text_widget.dart';
 import 'package:flutter/material.dart';
@@ -128,6 +129,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   decorationStyle: TextDecorationStyle.dotted,
                 ),
               ],
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: GoogleButton(
+                text: 'fdskfjskd',
+                imageUrl:
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9z_oQBNVajUnmXhawCb73yjjkiS1zL3-5oBc4eacvBw&s',
+              ),
             ),
             Gap(30),
             Padding(
