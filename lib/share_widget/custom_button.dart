@@ -12,10 +12,9 @@ Widget customButton({
   TextStyle? textStyle,
 }) {
   BuildContext? context = navigatorKey.currentContext;
-  double screenWidth = context != null ? MediaQuery.of(context).size.width : 0;
 
   return Container(
-    width: screenWidth * 0.8,
+    width: 100,
     height: 70,
     child: ElevatedButton(
       onPressed: onPressed,

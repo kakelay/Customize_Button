@@ -12,7 +12,10 @@ Widget bottomNavigationCustom() {
       buttonColor: Colors.orangeAccent,
       onPressed: () {},
       buttonText: 'Click me',
-      textStyle: TextStyle(fontSize: 20, color: Colors.black),
+      textStyle: const TextStyle(
+        fontSize: 20,
+        color: Colors.black,
+      ),
     ),
   );
 }
